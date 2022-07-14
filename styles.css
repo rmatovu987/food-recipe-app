@@ -213,7 +213,7 @@ body{
 }
 
 .recipe-instruct{
-    padding: 0;
+    padding: 1rem 0;
 }
 
 .recipe-ingredient{
