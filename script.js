@@ -58,9 +58,34 @@ function getMealRecipe(e){
 //create a modal
 function mealRecipeModal(meal){
     meal = meal[0]
+    console.log(meal)
     let html = `
         <h2 class = "recipe-title">${meal.strMeal}</h2>
-        <p class = "recipe-category">${meal.strCategory}</p>
+        <p class = "recipe-category">Category: ${meal.strCategory}  <br> Area: ${meal.strArea}</p>
+        <div class = "recipe-ingredient">
+            <h3>Ingredients:</h3>
+            <p>${meal.strIngredient1},
+            ${meal.strIngredient2},
+            ${meal.strIngredient3},
+            ${meal.strIngredient4},
+            ${meal.strIngredient5},
+            ${meal.strIngredient6},
+            ${meal.strIngredient7},
+            ${meal.strIngredient8},
+            ${meal.strIngredient9},
+            ${meal.strIngredient10},
+            ${meal.strIngredient11},
+            ${meal.strIngredient12},
+            ${meal.strIngredient13},
+            ${meal.strIngredient14},
+            ${meal.strIngredient15},
+            ${meal.strIngredient16},
+            ${meal.strIngredient17},
+            ${meal.strIngredient18},
+            ${meal.strIngredient19},
+            ${meal.strIngredient20},
+            </p>
+        </div>
         <div class = "recipe-instruct">
             <h3>Instructions:</h3>
             <p>${meal.strInstructions}</p>

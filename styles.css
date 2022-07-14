@@ -8,6 +8,7 @@
 }
 
 :root{
+    --tenne-tawny-light: #6a2d0c;
     --tenne-tawny: #d65108;
     --tenne-tawny-dark: #b54507;
 }
@@ -150,7 +151,7 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
-    background: var(--tenne-tawny);
+    background: var(--tenne-tawny-light);
     border-radius: 1rem;
     width: 90%;
     height: 90%;
@@ -212,6 +213,10 @@ body{
 }
 
 .recipe-instruct{
+    padding: 0;
+}
+
+.recipe-ingredient{
     padding: 1rem 0;
 }
 
